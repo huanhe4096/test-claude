@@ -1,0 +1,27 @@
+{
+  "name": "omop-cohort-app",
+  "version": "1.0.0",
+  "description": "OMOP CDM Cohort Analysis Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "cd frontend && npm start",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "omop",
+    "cdm",
+    "cohort",
+    "analysis",
+    "healthcare"
+  ],
+  "author": "",
+  "license": "MIT"
+}

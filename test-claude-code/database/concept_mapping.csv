@@ -1,0 +1,9 @@
+disease_category,source_vocabulary,source_code,omop_concept_id,omop_concept_code,concept_name
+Cancer,ICD10CM,C00-D49,443392,363346000,Malignant neoplastic disease
+Cancer,ICD9CM,140-239,443392,363346000,Malignant neoplastic disease
+Diabetes,ICD10CM,"E08,E09,E10,E11,E13",201820,73211009,Diabetes mellitus
+Diabetes,ICD9CM,250,201820,73211009,Diabetes mellitus
+Hypertension,ICD10CM,I11-I16,316866,38341003,Hypertensive disorder
+Hypertension,ICD9CM,"401.0,401.1,401.9",316866,38341003,Hypertensive disorder
+Chronic Kidney Disease,ICD10CM,"N18.0-N18.5,N18.9",46271022,709044004,Chronic kidney disease
+Chronic Kidney Disease,ICD9CM,"585.1-585.6,585.9",46271022,709044004,Chronic kidney disease
